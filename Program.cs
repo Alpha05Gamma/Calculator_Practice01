@@ -104,7 +104,7 @@ namespace ConsoleApp1
                         break;
                     }
                     List<int> numberDivs = new List<int>();
-                    for (int i = 1; i < number; i++)
+                    for (int i = 1; i <= number; i++)
                     {
                         if ((number % i) == 0)
                         {
